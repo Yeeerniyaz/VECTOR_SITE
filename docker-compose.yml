@@ -1,0 +1,8 @@
+version: '3'
+services:
+  vector-mirror:
+    build: .
+    container_name: vector_client
+    restart: always
+    ports:
+      - "3005:80"
